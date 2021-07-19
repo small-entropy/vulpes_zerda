@@ -1,0 +1,32 @@
+{"1.2.0",
+[{<<"cowboy">>,
+  {git,"https://github.com/extend/cowboy.git",
+       {ref,"2a082504996afccf78185182cd168123800bd4f0"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"e9448e5628c8c1d9083223ff973af8de31a566d1"}},
+  1},
+ {<<"erlydtl">>,
+  {git,"git://github.com/evanmiller/erlydtl.git",
+       {ref,"c1f3df8379b09894d333de4e9a3ca2f3e260cba3"}},
+  0},
+ {<<"fs">>,{pkg,<<"fs">>,<<"6.1.1">>},1},
+ {<<"mimetypes">>,
+  {git,"git://github.com/spawngrid/mimetypes.git",
+       {ref,"4a66378f72ebcf92ccaf1d8119ca9228a504858c"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"a692f44567034dacf5efcaa24a24183788594eb7"}},
+  1},
+ {<<"sync">>,
+  {git,"git://github.com/rustyio/sync.git",
+       {ref,"7c9367e73b7dbb01a788f8d0120d747330112f6f"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"fs">>, <<"9D147B944D60CFA48A349F12D06C8EE71128F610C90870BDF9A6773206452ED0">>}]},
+{pkg_hash_ext,[
+ {<<"fs">>, <<"EF94E95FFE79916860649FED80AC62B04C322B0BB70F5128144C026B4D171F8B">>}]}
+].

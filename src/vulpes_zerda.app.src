@@ -1,0 +1,18 @@
+{application, vulpes_zerda,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {vulpes_zerda_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy, 
+    sync, 
+    ranch
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
